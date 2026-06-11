@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-image: url("../assets/login_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.login-card {
+  width: 450px;
+  background: white;
+  padding: 35px;
+  border-radius: 15px;
+  text-align: center;
+
+  box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+}
+
+.login-card h1 {
+  margin-bottom: 20px;
+}
+
+.login-card p {
+  color: rgb(131, 127, 113);
+  margin-top: 20;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+}
+
+.login-card button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 20px;
+
+  border: none;
+  border-radius: 8px;
+
+  background: #667eea;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-card button:hover {
+  background: #4f5fd3;
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.forgot-password {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.forgot-password a {
+  text-decoration: none;
+  color: #667eea;
+  font-size: 14px;
+}
+
+.success-message {
+  color: green;
+  margin-top: 10px;
+  font-size: 14px;
+}

@@ -1,0 +1,47 @@
+.not-found-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background: linear-gradient(
+    135deg,
+    #667eea,
+    #764ba2
+  );
+
+  color: white;
+  text-align: center;
+}
+
+.not-found-container h1 {
+  font-size: 100px;
+  margin-top: 20;
+  margin-bottom:20;
+}
+
+.not-found-container h2 {
+  margin-top: 50;
+  font-size: 32px;
+}
+
+.not-found-container p {
+  margin: 20px 0;
+}
+
+.home-btn {
+  text-decoration: none;
+  background: white;
+  color: #667eea;
+
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-weight: bold;
+
+  transition: 0.3s;
+}
+
+.home-btn:hover {
+  transform: scale(1.05);
+}
